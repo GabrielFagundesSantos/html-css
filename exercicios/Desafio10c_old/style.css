@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+            src: url('fontes/idroid.otf') format('opentype'), url(fontes/idroid.otf) format('truetype');}
+
+body{
+    background-color: rgb(145, 248, 145);
+    margin: 0px;
+}
+header{
+    background-color: rgb(94, 156, 94);
+    padding: 1%;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    
+}
+header > p{
+   font-size: 15px;
+   
+}
+header > h1{
+    padding: 10px;
+    font-size: 35px;
+ }
+header > ul{
+    text-align: left;
+    padding: 0%;
+    margin: -1%;
+    
+}
+header > ul > nav > a{
+    color: white;
+    padding: 8px 8px 0px 8px;
+    text-decoration: none;
+}
+header > ul > nav > a:hover{
+    text-decoration: underline;
+    font-size: 18px;
+}
+main{
+    background-color: rgb(145, 248, 145);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+main > div{
+    background-color: white;
+    padding: 10px;
+    margin: 25%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+main > div > h1, h2{
+    font-family: "idroid";
+    color: rgb(65, 105, 65);
+}
+main > div > img{
+    width: 98%;      
+}
+main > div > img.irina-blok{
+    width: 100%;      
+}
+main > div > img.bugdroid{
+    width: 50%;   
+    margin-left: 20%;   
+}
+iframe{
+    margin-left: 5%; 
+    
+}
+main > div.video{
+    background-color: rgb(65, 105, 65);
+    
+}
+
+section{
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(145, 248, 145);
+    margin-bottom: -4%;
+}
+section > h4{
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+    background-color:rgb(65, 105, 65);
+    
+}
+section > p{
+    padding: 5px;
+    text-indent: 30px;
+}
+div.ul_esquerda{
+    background-color: rgb(145, 248, 145);
+    margin-right: 60%;
+    margin-top: 0%;
+}
+div.ul_direita{
+    background-color: burlywood;
+    margin-left: 38%;
+    margin-top: -20%;
+}

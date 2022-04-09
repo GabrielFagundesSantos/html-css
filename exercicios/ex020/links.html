@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*
+        SELETORES PERSONALIZADOS
+        # = ID
+        . = Class
+        : = pseudo-class
+        :: = pseudo-element
+        > = clildren (filho)
+
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a:active{
+            color: black;
+        }
+        a::after{
+            content: ' Link';
+            color: rgb(190, 190, 190);
+        }
+        a::before{
+            content: '♠';
+            color: rgb(190, 190, 190);
+        }
+        .especial{
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/GabrielFagundesSantos" target="_blank" rel="external">GitHub</a></li>
+        <li><a class="especial" href="https://www.linkedin.com/in/gabriel-fagundes-27b810166/" target="_blank" rel="external">LinkDin</a></li>
+        <li><a href="https://www.estudonauta.com/aluno/gabriel-fagundes-santos" target="_blank" rel="external">Site</a></li>
+    </ul>
+</body>
+</html>
